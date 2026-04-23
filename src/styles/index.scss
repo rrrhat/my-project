@@ -1,0 +1,16 @@
+//引入清除默认样式
+@use './reset.scss' as *;
+
+//滚动条的外观设置
+::-webkit-scrollbar {
+  width: 10px;
+}
+//滚动条轨道（背景）
+::-webkit-scrollbar-track {
+  background: $base-menu-background;
+}
+//滚动条滑块（可以拖动的那个
+::-webkit-scrollbar-thumb {
+  background: #908e8e; /* 灰色 */
+  border-radius: 1px; /* 圆角 */
+}
